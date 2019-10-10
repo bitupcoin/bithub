@@ -1,15 +1,6 @@
-MultiChain
+BITUP
 ==========
 
-[MultiChain](http://www.multichain.com/) is an open source platform for private blockchains, which offers a rich set of features including extensive configurability, rapid deployment, permissions management, native assets and data streams. Although it is designed to enable private blockchains, MultiChain provides maximal compatibility with the bitcoin ecosystem, including the peer-to-peer protocol, transaction/block formats and [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) APIs/runtime parameters.
-
-MultiChain is licensed under the GPLv3 open source license. We also offer commercial licenses for those wishing to integrate MultiChain into a proprietary software solution.
-
-    Copyright (c) 2014-2017 Coin Sciences Ltd
-    License: GNU General Public License version 3, see COPYING
-
-    Portions copyright (c) 2009-2016 The Bitcoin Core developers
-    Portions copyright many others - see individual files
 
 System requirements
 -------------------
@@ -34,7 +25,7 @@ Install dependencies
     sudo apt-get update
     sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
-Compile MultiChain for Ubuntu (64-bit)
+Compile for Ubuntu (64-bit)
 -----------------------------
 
     ./autogen.sh
@@ -64,7 +55,7 @@ Install dependencies
     sudo apt-get update
     sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
-Compile MultiChain for Windows (64-bit)
+Compile for Windows (64-bit)
 ------------------------------
 
     ./autogen.sh
@@ -113,7 +104,7 @@ The default brew cookbook for berkeley-db and boost builds static libraries, but
         In 'def configure_args' change 'shared' to 'no-shared'
     brew install openssl --force
 
-Compile MultiChain for Mac (64-bit)
+Compile for Mac (64-bit)
 --------------------------
 
     export LDFLAGS=-L/usr/local/opt/openssl/lib
